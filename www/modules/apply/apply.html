@@ -1,0 +1,9 @@
+<ion-nav-buttons side="left">
+    <button class="button button-icon icon ion-chevron-left"
+            style="color: dodgerblue" ng-click="geBack()">
+        返回
+    </button>
+</ion-nav-buttons>
+<ion-view title="{{applyData.titleContent}}" id="apply">
+    <ng-include src="applyData.includeContent"></ng-include>
+</ion-view>

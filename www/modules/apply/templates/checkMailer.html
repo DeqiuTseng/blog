@@ -1,0 +1,55 @@
+<div class="containerBig" ng-init="initData()">
+    <div class="containerSmall cM">
+        <form id="wordInfoForm" name="wordInfoForm" ng-submit="processForm(wordInfoForm.$valid)" novalidate class="validate-abc personData">
+            <div class="row row-center h100P">
+                <div class="col">
+                    <div class="conWrap">
+                        <div class="row h100P">
+                            <!--左侧-->
+                            <aside class="col col-120px">
+                                <div class="line"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                                <div class="circle"></div>
+                            </aside>
+                            <!--右侧-->
+                            <article class="col">
+                                <div class="row" ng-init="isOpen=true" ng-click="isOpen=!isOpen">
+                                    <div class="isOpenIcon">
+                                        <span class="ion-checkmark-round" ng-if="!isOpen"></span>
+                                    </div>
+                                    <div class="col isOpen">检查信封是否未启封</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col barCode">
+                                        扫描条码：
+                                    </div>
+                                    <div class="col" style="margin-top: 80px;"><span onclick="return false" >
+                                            <div class="barCoad" >{{cardInfo.barcode}}</div>
+                                            <!--{{cardInfo.barcode}}-->
+                                        </span>
+                                    </div>
+                                    <div class="col" style="margin-top: 57px;">
+                                        <button class="applyBtn" ng-click="barCodeScan()">扫描</button>
+                                    </div>
+                                </div>
+                                <div class="row" ng-init="fechCard=true" ng-click="fechCard=!fechCard">
+                                    <div class="isOpenIcon">
+                                        <span class="ion-checkmark-round" ng-if="fechCard"></span>
+                                    </div>
+                                    <div class="col isOpen">取出预制卡、密码信封</div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <button class="applyBtn nextBtn" ng-click="next_step(1)" data-ng-disabled="!(!isOpen&&fechCard&&cardInfo.barcode)">下一步</button>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>

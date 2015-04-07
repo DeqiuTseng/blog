@@ -1,0 +1,25 @@
+.regulationsBtn{
+    margin-top: 54%;
+    width: 60%;
+    margin-left: auto;
+}
+.ionContent{
+    width: 98%;
+    height:66%;
+    margin-top: 90px
+}
+.contractBtn{
+    margin-top: 54%;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+.ionContent p{
+    text-indent: 2em;
+}
+.ionContent ul li{
+    text-indent: 2em;
+}
+.photoStep{
+    margin-top: 53%;
+}

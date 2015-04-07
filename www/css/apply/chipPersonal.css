@@ -1,0 +1,46 @@
+
+.personalLeft{
+    width: 20%;
+    height: 450px;
+    background: url("../../img/personal.png") no-repeat center center ;
+    margin-left: 20px;
+    float: left;
+}
+.personalRight{
+    width: 72%;
+    height: 450px;
+    float: left;
+    margin-left: 10px;
+}
+.btn{
+    width:100px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#containerSmall .button{
+    color: white;
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    border: 1px solid #636166;
+    border-radius: 25px;
+    width: 125px;
+    height: 50px;
+    background-color: #f0b840;;
+}
+.inp{
+    background: #ffffff;
+}
+.range-label{
+    font-size: 25px;
+}
+.stepInfoBottom{
+    text-align: center;
+}
+/*
+
+-------------------------------*/
+.takePhotoContent label{
+    font-size: 24px;
+}

@@ -1,0 +1,210 @@
+
+.pQuery *{
+    font-family: "微软雅黑", serif;
+    font-size: 20px;
+}
+.pQuery .textR{
+    text-align: right;
+}
+.pQuery .height100p{
+    height: 100%;
+}
+.pQuery .height90p{
+    height: 90%;
+}
+
+.pQuery .height100px{
+    height: 100px;
+}
+.pQuery .lineH37{
+    line-height: 37px;
+}
+.pQuery .levelCenter{
+    margin: 0 auto;
+}
+.pQuery .shadow{
+    border: 1px solid #e1e1e1;
+    box-shadow: -5px 5px 5px #c0c0c0;
+
+}
+.pQuery .borderA9a9a9{
+    border: 1px solid #b1c6f1;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.pQuery .padLevel{
+    padding-left:35px;
+    padding-right:35px;
+}
+.pQuery input{
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: none;
+
+}
+.pQuery input[type='text']{
+    text-indent: 20px;
+}
+
+.pQuery .swipeId{
+    padding: 6px 8px;
+    border-radius:2px;
+    color: black;
+    font-size: 16px;
+
+}
+/*表格标签css************************/
+.pQuery .titleWrap{
+    margin-top: 20px;
+}
+.pQuery .titleWrap button{
+    float: right;
+    margin: 0
+}
+.pQuery .tableTitle{
+    position: relative;
+    top: 10px;
+    left: -5px;
+    background-color: #bad5d0;
+    max-height: 60px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #009883;
+    font-size: 26px;
+}
+
+.pQuery .angleStyle{
+    position: relative;
+    top: 0;
+    left: -5px;
+    border-right:80px solid transparent;
+    border-left: 0 solid transparent;
+    border-bottom: 60px solid #bad5d0;
+}
+/*表格体css************************/
+.pQuery .tableHead{
+    padding: 0;
+    height: 65px;
+    line-height: 50px;
+    background-color: #eaeaea;
+
+}
+
+.pQuery .tableRow{
+    color: #009883;
+    padding: 0;margin-top: -1px
+}
+.pQuery .tableHead .col{
+    text-align: center;
+    color: #009883;
+    font-size: 22px;
+
+}
+.pQuery .tableRow .col{
+    padding: 10px;
+    line-height: 30px;
+}
+.pQuery .tableHead .col,.pQuery .tableRow .col{
+    border-top: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    border-bottom: 1px solid #c8c8c8;
+}
+.pQuery .tableRow div:last-child{
+    border-right: none;
+}
+.pQuery .tableHead div:first-child{
+    border-left: 1px solid #c8c8c8;
+}
+
+.pQuery .tableScroll{
+    height: 280px;
+    border: 1px solid #c8c8c8;
+}
+
+
+
+/*select css*/
+.pQuery select {
+    padding: 4px 48px 6px 16px;
+    width: 95%;
+    cursor: pointer;
+    direction: ltr;
+    border: 1px solid #b1c6f1;
+}
+
+/*******ionic extend begin here*******************/
+
+.pQuery .col-100{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.pQuery .col-95{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 95%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 95%;
+    -ms-flex: 0 0 95%;
+    flex: 0 0 95%;
+    max-width: 95%;
+}
+
+.pQuery .col-25{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 25%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.pQuery .col-15{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 15%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 15%;
+    -ms-flex: 0 0 15%;
+    flex: 0 0 15%;
+    max-width: 15%;
+}
+
+
+/******************************************************/
+.noContent{
+    height: 280px;
+    border: 1px solid #c8c8c8;
+    margin-top: -5px;
+}
+
+.noContent .LineCenter{
+    height: 50%;
+    margin: 0 auto;
+}
+.noContent .letterWrap{
+    min-height: 65px;
+    padding-left: 80px;
+    font-size: 24px;
+    line-height: 33px;
+    background: url("../img/common/cion_noConcent.png") no-repeat left;
+
+}
+/*.noContent .row{*/
+    /*border:1px solid red*/
+/*}*/
+/*.noContent .col{*/
+    /*border:1px solid blue*/
+/*}*/
+
+.center {
+    text-align: center;
+    font-size: 20px;
+    line-height: 70px;
+    height:70px;
+}

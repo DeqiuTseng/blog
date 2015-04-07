@@ -1,0 +1,99 @@
+<div class="idCardContainer" id="readIdCard" ng-init="openCardInit()">
+  <div class="idCardBottom">
+      <!--******标题************************************************-->
+        <div class="idCardTitleContainer">
+          <span class="idCardTitle">请在读卡器上刷二代身份证</span>
+        </div>
+
+      <div class="idCardPhoto">
+        <div class="idCardBgF">
+          <!--<!--******表格开始***********************************-->
+          <!--身份证正面-->
+          <div class="row row-top">
+            <div class="col idCardMGL26">
+              <div class="row row-top idCardMGT43">
+                <div class="col idCardCol-50 idCardLabel">姓名</div>
+                <div class="col idCardFont18">{{personalInfo.chinaName}}</div>
+              </div>
+              <div class="row row-top idCardMGT13 idCardFont16">
+                <div class="col idCardCol-50 idCardLabel">性别</div>
+                <div class="col idCardFont16">{{personalInfo.sex}}</div>
+                <div class="col idCardCol-50 idCardLabel idCardMGL-50">民族</div>
+                <div class="col idCardFont16 idCardMGL-22">{{personalInfo.country[0]}}</div>
+              </div>
+              <div class="row row-top idCardMGT13" ng-if="!birthPosition">
+                <div class="col idCardCol-50 idCardLabel">出生</div>
+                <div class="col idCardFont16 idCardMGL-6">
+                  {{personalInfo.birthYear}}<span class="idCardLabelSpan2 idCardSpanMGL">年</span>
+                  {{personalInfo.birthMonth}}<span class="idCardLabelSpan2">月</span>
+                  {{personalInfo.birthDay}}<span class="idCardLabelSpan2">日</span>
+                </div>
+              </div>
+
+              <div class="row row-top idCardMGT13" ng-if="birthPosition">
+                <div class="col idCardCol-50 idCardLabel">出生</div>
+                <div class="col idCardFont16 idCardMGL-6">
+                  {{personalInfo.birthYear}}<span class="idCardLabelSpan">年</span>
+                  {{personalInfo.birthMonth}}<span class="idCardLabelSpan">月</span>
+                  {{personalInfo.birthDay}}<span class="idCardLabelSpan">日</span>
+                </div>
+              </div>
+
+              <div class="row row-top idCardMGT13">
+                <div class="col idCardCol-50 idCardLabel">住址</div>
+                <div class="col idCardFont16">{{personalInfo.address}}</div>
+              </div>
+            </div>
+            <div class="col idCardHead idCardCol-165">
+              <div class="row row-bottom idCardHeight100">
+                <div class="col">
+                  <img ng-src="{{personalInfo.photoData}}">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--<!--*********表格结束*********************************-->
+          <div class="row row-bottom idCardTidNum idCardMGT13 idCardMGL10">
+            <div class="col idCardCol-120 idCardTidNum idCardMGL26">公民身份证号</div>
+            <div class="col idCardFont18 idCardLSpace3">{{personalInfo.idNum}}</div>
+          </div>
+        </div>
+        <!--身份证背面-->
+        <div class="idCardBgB">
+          <div class="row row-top">
+            <div class="col idCardcol-80 idCardHeight180"></div>
+            <div class="col">
+              <div class="row"><div class="col"></div></div>
+              <div class="row row-center">
+                <div class="col idCardChinaName">中华人民共和国</div>
+              </div>
+              <div class="row">
+                <div class="col idCardHeight50"></div>
+              </div>
+              <div class="row row-center">
+                <div class="col idCardRegist">居民身份证</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col idCardcol-80 idCardIssuDiv">签发机关</div>
+            <div class="col idCardFont18 idCardLSpace3">{{personalInfo.issuing}}</div>
+          </div>
+          <div class="row idCardMGT13">
+            <div class="col idCardcol-80 idCardIssuDiv">有效期限</div>
+            <div class="col idCardFont16">{{personalInfo.validDate}}</div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+  <div class="idCardBTNContainer">
+    <button class="applyBtn" ng-click="readIdCard()">
+      读身份证
+    </button>
+    <button class="applyBtn idCardBTNStyle" ng-click="next_step(3)">
+      下一步
+    </button>
+  </div>
+</div>

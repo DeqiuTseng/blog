@@ -1,0 +1,10 @@
+
+<div class="prgressStyle">
+    <label ng-repeat="stepObj in steplist" class="stepStyle"  ng-click="myclick({step:$index});">
+   <!-- <label ng-repeat="stepObj in steplist" class="stepStyle"  >-->
+                <span ng-class="stepObj.stepImgStyle">
+                    <span ng-class="stepObj.stepImg"></span>
+                </span>
+        <span ng-class="stepObj.stepTextStyle">{{stepObj.stepText}}</span>
+    </label>
+</div>

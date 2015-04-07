@@ -1,0 +1,110 @@
+.act{
+    height: 100%;
+    margin: 0;
+}
+/*.act .col{*/
+/*border: 1px solid blue;*/
+/*}*/
+/*.act .row{*/
+/*border: 1px solid red;*/
+/*}*/
+.act img{
+    width: 200px;
+    height: 140px;
+}
+
+.act .ddd{
+    max-height: 100%;
+}
+.act .pad0{
+    padding: 0;
+}
+.act .marg0{
+    margin: 0;
+}
+.act .noBorder{
+    border: none;
+}
+.act .height100P{
+    height: 100%;
+}
+.act .height90P{
+    height: 90%;
+}
+.act .levelCenter{
+    margin: 0 auto;
+}
+.act .conPaper{
+    margin-top: 5% ;
+    margin-bottom:5% ;
+    background-color: #e6e2d9;
+    border: 1px solid #cccccc;
+    box-shadow: -5px 5px 5px #a5a29c;
+}
+
+.act .lineDiv{
+    padding-bottom: 50px;
+}
+.act .platform {
+    position: relative;
+    bottom: 5px;
+    height:50px;
+    background-color: #bab6ad;
+    border-radius:4px;
+    transform: perspective(600px) rotateX(50deg);
+    transform-origin:bottom;
+    -webkit-transform: perspective(600px) rotateX(50deg);  /*Safari and Chrome*/
+    -webkit-transform-origin:bottom;
+    -moz-transform-origin:bottom;
+    -moz-transform: perspective(600px) rotateX(50deg);  /*Firefox*/
+}
+
+.act .platEdge{
+    border: 1px solid #ebeef1;
+    background: #ebeef1;
+    border-radius: 4px;
+    box-shadow:0 0 30px black;
+}
+.act .picDiv{
+    position: relative;
+    bottom:-30px;
+    margin-left: 5%;
+    z-index: 2;
+
+
+    box-shadow: 10px 0 10px #4b4946;
+
+    transform: perspective(400px) rotateY(-10deg);
+    transform-origin:center;
+    -webkit-transform: perspective(400px) rotateY(-10deg);  /*Safari and Chrome*/
+    -webkit-transform-origin:center;
+    -moz-transform: perspective(400px) rotateY(-10deg);  /*Firefox*/
+    -moz-transform-origin:center;
+}
+
+/******ionic extend begin here*****************************************/
+.picDiv .item-divider{
+    margin-top: -5px;
+    text-align: center;
+    background-color: #00a0e9;
+    color: #ffffff;
+    border-radius: 0;
+}
+.act .col-90 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 90%;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 90%;
+    -ms-flex: 0 0 90%;
+    flex: 0 0 90%;
+    max-width: 90%; }
+
+.act .col-26{
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 200px;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 200px;
+    -ms-flex: 0 0 200px;
+    flex: 0 0 200px;
+    max-width: 200px;
+}

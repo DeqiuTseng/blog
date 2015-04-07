@@ -1,0 +1,114 @@
+
+.barContainer {
+    position: relative;
+    /*background-color: #f7f7f9;*/
+    /*background-color: mediumaquamarine;*/
+    background-color: #f6f6f6;
+    /*background-color: #808080;*/
+    margin: 0;
+    height: 28%;
+    width: 100%;
+}
+
+.titleCenter {
+    text-align: center;
+    line-height: 1.5em;
+    height: 5%;
+    width: 100%;
+    background-color: mediumaquamarine;
+}
+
+.barOne {
+    margin-left: 34%;
+    width: 100%;
+}
+
+.SelectDiv {
+    height: 100%;
+    width: 100%;
+    padding-left: 40px;
+    margin-top: 2%;
+    background-color: #ffffff;
+    border-top: 1px solid lightgrey;
+}
+
+.margin-top {
+    padding-top: 2%;
+}
+
+.photoMargin {
+    padding-top: 9%;
+    width: auto;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    text-align: center;
+}
+
+.proContainer li {
+    float: left;
+}
+
+.productDisImg {
+    width: 360px;
+    height: 243px;
+
+}
+
+#productContainer select {
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+/*#productContainer input[type=text]{*/
+/*width:80%;*/
+/*height:47px;*/
+/*font-size: 15px;*/
+/*margin-top:10px;*/
+/*margin-right:10px;*/
+/*}*/
+/*#productContainer input[type=button]{*/
+/*width:140px;*/
+/*height:40px;*/
+/*font-size: 15px;*/
+/*margin-top:10px;*/
+/*margin-right:10px;*/
+/*}*/
+
+.hotBtn {
+    width: 200px;
+    height: 45px;
+    line-height: 1.5em;
+    text-align: center;
+    color: #ffffff;
+    background: #06B274;
+    border-radius: 30px;
+
+}
+
+/*下拉框验证样式*/
+.productStyle select.ng-invalid {
+    background: #fff url(../../../img/common/down.png) no-repeat 98% center;
+}
+
+.productStyle select.ng-valid {
+    background: #fff url(../../../img/common/left.png) no-repeat 98% center;
+}
+
+.selectTitle {
+    text-align: center;
+    font-family: "微软雅黑", serif;
+    font-size: 30px;;
+    color: #272727;
+    text-shadow: 1px 1px 1px lightyellow;
+}
+
+.welcomeTitle {
+    text-align: center;
+    text-shadow: 1px 2px 2px #94b9b7;
+    font-family: "微软雅黑", serif;
+    height: 20%;
+    font-size: 35px;
+    color: orange;
+}

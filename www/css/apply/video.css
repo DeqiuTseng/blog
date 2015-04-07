@@ -1,0 +1,26 @@
+.videoContent {
+  margin-top: 14%;
+  margin-left: 8%;
+  width: 90%;
+  height: 460px ;
+  overflow:hidden;
+}
+
+.upVideoSty {
+  float: left;
+  height: 400px;
+  width: 50%;
+  background:url("../../img/upVideoBg.png") no-repeat;
+}
+.downVideoSty {
+  float: left;
+  height: 400px;
+  width: 50%;
+  background:url("../../img/upVideoBg.png") no-repeat;
+}
+.videoBtn {
+  margin-left: 20%;
+}
+.videoBtn2 {
+  margin-left: 32%;
+}

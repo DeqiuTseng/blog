@@ -1,0 +1,24 @@
+.creditLevel {
+    height: 30px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.lowLevel {
+    width: 33%;
+    background-color: red;
+}
+
+.middleLevel {
+    width: 67%;
+    background-color: #498f24;
+}
+
+.highLevel {
+    width: 99%;
+    background-color: #498f24;
+}
+
+
+
+

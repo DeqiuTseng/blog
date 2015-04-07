@@ -1,0 +1,130 @@
+/******productDetail 公用*************/
+.pDtl{
+    height: 598px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+.pDtl *{
+    font-family: "微软雅黑", serif;
+    line-height: 30px;
+}
+
+.pDtl ion-scroll{
+    background-color: #ffffff;
+}
+
+.pDtl .levelCenter{
+    margin: 0 auto;
+}
+
+.pDtl .height50{
+    height: 50px;
+}
+
+.pDtl .height100P{
+    height: 100%;
+}
+
+.pDtl .height230{
+    height: 230px;
+}
+
+.pDtl .bgf3f3f3{
+    background-color: #f3f3f3;
+}
+
+.pDtl .lineTitle{
+    color: #111111;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom: 2px solid #fdc42f;
+}
+
+.pDtl .pad30{
+    padding: 30px
+}
+
+.pDtl .shadow{
+    box-shadow: -5px 5px 10px #888888; border: 1px solid #ddd
+}
+
+/******图片及名称/全国景区购票优惠/温馨提示**********************/
+.pDtl .pName{
+    font-size: 30px;
+    color: #01af74;
+    padding: 20px;
+}
+
+.pDtl .pRang{
+    font-size: 20px;
+    color: #737373;
+
+    padding: 20px;
+}
+
+.pDtl .aplBtn{
+    color: #ea5900;
+    width: 180px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    border-radius: 5px;
+}
+
+.pDtl .pImg{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+    cursor: pointer;
+}
+
+/******特色功能及服务*******************/
+.pDtl .servIntro{
+    font-size: 16px;
+    text-indent: 36px;
+}
+
+.pDtl .servImg{
+    width: 840px;
+    height: 220px;
+    display: block;
+    margin: 0 auto;
+}
+/******ionic extend from here*********/
+
+.col-17px {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 17px;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 17px;
+    -ms-flex: 0 0 17px;
+    flex: 0 0 17px;
+    max-width: 17px;
+}
+
+.col-900px {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 900px;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 900px;
+    -ms-flex: 0 0 900px;
+    flex: 0 0 900px;
+    max-width: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+<div class="loginBG">
+    <form id="loginForm" name="loginForm" class="loginForm" ng-init="loginInit();">
+        <div class="logFormFirstDiv">
+             <div  id="readId" ng-click="$event.stopPropagation()"  class="logReIdBtHidden loginselTooltip">
+                <!-- <input type="button" value="刷身份证" ng-click="loginread();" />-->
+                 <span ng-click="loginread();">刷身份证</span>
+             </div>
+            <input id="custName" name="custName" type="text"  class="loginInp loginIdNum"
+                   ng-model="logInfo.loginIdcd"  placeholder="用户名"
+                   data-required="true" ng-focus="loginNumisFoucs();"
+                   ng-blur="loginNumisBlur();" tooltip-trigger="focus"/>
+        </div>
+        <div>
+            <input id="custPswd" name="custPswd" type="password"  class="loginInp loginPw"
+                   placeholder="用户密码" ng-model="logInfo.passWord"
+                   data-required="true"
+                   tooltip="长度不小于6！" tooltip-trigger="focus"/>
+        </div>
+        <div class="divCheck" >
+           <input type="checkbox"><label >记住密码</label>
+        </div>
+        <div>
+            <img src="../../../lib/image/login.png" ng-click="checkLog();" class="loginBtn"/>
+        </div>
+<!--        <input type="hidden" id="EventId" name="EventId" value="cceventid" />-->
+    </form>
+    <div ng-click="openPopup();" class="uuidStyle loginUuid ">
+        <label><!--MAC:{{UUID}}-->设置</label>
+    </div>
+</div>

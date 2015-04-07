@@ -1,0 +1,52 @@
+<ion-view title="系统信息" ng-controller="settingCtrl">
+    <div class="settingBackground">
+        <ion-content scroll="false" class="settingBackground">
+
+            <br> <br>
+
+            <div class="settingDivider">用户信息</div>
+
+            <div class="settingList">
+                <div class="leftContent"><img ng-src="{{_serverURL+'img/common/userName.png'}}">
+                    用户名</div>
+                <div class="rightContent">{{commonData.sysUserName}}</div>
+            </div>
+            <div class="settingList" style="border-bottom: 1px solid;border-color: #A9A9A9;">
+                <div class="leftContent"><img ng-src="{{_serverURL+'img/common/loginTime.png'}}">最后登录时间</div>
+                <div class="rightContent">{{commonData.lastLoginTime}}</div>
+            </div>
+
+            <br> <br> <br>
+
+            <div class="settingDivider">版本信息</div>
+
+            <div class="settingList">
+                <div class="leftContent"><img ng-src="{{_serverURL+'img/common/vesionCode.png'}}">版本号</div>
+                <div class="rightContent">{{commonData.sysVersion}}</div>
+            </div>
+            <div class="settingList">
+                <div class="leftContent"><img ng-src="{{_serverURL+'img/common/serverUrl.png'}}">服务器地址</div>
+                <div class="rightContent">{{commonData.serverURL}}</div>
+            </div>
+            <div class="settingList" style="border-bottom: 1px solid;border-color: #A9A9A9;">
+                <div class="leftContent"><img ng-src="{{_serverURL+'img/common/updateTime.png'}}">最后更新时间</div>
+                <div class="rightContent">{{commonData.lastUpdateTime}}</div>
+            </div>
+            <br>
+
+
+            <div class="settingBtn">
+                <button class="button  button-positive  icon-left" ng-click="clearData()"><i class="ion-trash-a"></i>
+                    清除数据
+                </button>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="button  button-assertive icon-left" ng-click="exit()"><i class="ion-power"></i> 退&nbsp;&nbsp;出
+                </button>
+            </div>
+
+            <div class="settingPartition"></div>
+        </ion-content>
+    </div>
+
+
+</ion-view>
